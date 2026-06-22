@@ -289,3 +289,29 @@ box-shadow:
     border-radius: 20px;
     margin-bottom: 30px;
 }
+
+.contacto{
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.contacto button{
+    background:#3b82f6;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.contacto button:hover{
+    transform:scale(1.05);
+}
+
+#mensaje{
+    margin-top:15px;
+    color:#4ade80;
+}
