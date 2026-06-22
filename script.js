@@ -42,3 +42,13 @@ window.addEventListener("resize", () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 });
+function CopiarDiscord() {
+    navigator.clipboard.writeText("benja.prr12");
+
+    document.getElementById("mensaje").innerHTML =
+    "✅ Discord copiado: benja.prr12";
+
+    setTimeout(() => {
+        document.getElementById("mensaje").innerHTML = "";
+    }, 3000);
+}
